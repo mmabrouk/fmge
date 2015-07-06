@@ -4,12 +4,18 @@ Implementation of the Fuzzy Multilevel Graph Embedding Algorithm (http://www.sci
 ####Please note that this is not an official implementation of the algorithm. I am in no way related to the authors.
 
 #####Usage:
-
 - call train(list(networkx.graph)) to learn the fuzzy overlapping
 intervals for the graph's attributes (Unsupervised learning phase)
 from the learning set
 - call embed(networkx.graph) to embed the graph into a numpy.array (vector)
 - call embed_list(list(networkx.graph) to embed a list of graphs into a numpy.array
+
+#####Example:
+
+    from fmge import fmge
+    embedder = fmge()
+    embedder.train(training_graph_list)
+    embedded_graphs = embedder.embed_list(test_graph_list)
 
 #####Input Data Format:
 
