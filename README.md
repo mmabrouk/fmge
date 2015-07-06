@@ -3,7 +3,7 @@ Implementation of the Fuzzy Multilevel Graph Embedding Algorithm (http://www.sci
 
 ####Please note that this is not an official implementation of the algorithm. I am in no way related to the authors.
 
-Usage:
+#####Usage:
 
 - call train(list(networkx.graph)) to learn the fuzzy overlapping
 intervals for the graph's attributes (Unsupervised learning phase)
@@ -11,13 +11,18 @@ from the learning set
 - call embed(networkx.graph) to embed the graph into a numpy.array (vector)
 - call embed_list(list(networkx.graph) to embed a list of graphs into a numpy.array
 
-Input Data Format:
+#####Input Data Format:
 
 - Input data are undirected graphs represented as networkx.graph
 - The node and edge attributes can be strings or floats/ints. 
 - No two attributes can have the same name! This is also true for attributes from nodes and edges!
 
-Differences to the paper:
+#####Requirements:
+
+- numpy
+- networkx
+
+#####Differences to the paper:
 
 I use median instead of mean to calculate the ressemblance
 for nodes: In the original paper the authors computed
