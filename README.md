@@ -1,7 +1,7 @@
 # Fuzzy Multilevel Graph Embedding
 Implementation of the Fuzzy Multilevel Graph Embedding Algorithm (http://www.sciencedirect.com/science/article/pii/S0031320312003470). 
 
-####Please note that is not an official implementation of the algorithm. I am in no way related to the authors.
+####Please note that this is not an official implementation of the algorithm. I am in no way related to the authors.
 
 Usage:
 
