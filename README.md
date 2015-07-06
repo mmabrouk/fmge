@@ -30,7 +30,7 @@ the ressemblance between all pairs of edges connected to the nodes
 then used their mean as the value for the ressemblance for that
 attribute. I use the mean (search for line np.median(all_ressemblances) to change)
 
-----
+-----
 
 Muhammad Muzzamil Luqman, Jean-Yves Ramel, Josep Lladós, Thierry Brouard, Fuzzy multilevel graph embedding, Pattern Recognition, Volume 46, Issue 2, February 2013, Pages 551-565, ISSN 0031-3203, http://dx.doi.org/10.1016/j.patcog.2012.07.029.
 (http://www.sciencedirect.com/science/article/pii/S0031320312003470)
